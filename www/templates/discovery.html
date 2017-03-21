@@ -1,0 +1,17 @@
+<ion-view view-title="Family Discovery" class="discovery-page">
+  <ion-content>
+    <div style="padding-top: 3%;"></div>
+    <div id="DiscoveryInfoMainPage" class="discovery-book">
+      <!--<h2 class="item item-icon-left item-icon-right discovery-select">-->
+      <h2 class="item discovery-select">
+        <!--<i class="icon ion-arrow-left-c" ng-click="previousMarker()"></i>-->
+        <select id="MarkerSelect" ng-model="marker" ng-change="updateCurrent(marker)" ng-options="marker.title for marker in markers"></select>
+        <!--<i class="icon ion-arrow-right-c" ng-click="nextMarker()"></i>-->
+      </h2>
+      <div class="discovery-marker" align="fill">
+        <p align="left" ng-bind-html="marker.title"></p>
+      </div>
+      <img src="img/bones.png" style="width:30vh;height:30vh;" />
+    </div>
+  </ion-content>
+</ion-view>

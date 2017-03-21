@@ -1,0 +1,226 @@
+/* Empty. Add your own CSS if you like */
+
+select {
+  background-color: transparent;
+  font-size: 22px;
+  border:0px;
+  outline:0px;
+  text-decoration: underline;
+}
+
+#MarkerInfo {
+  visibility: hidden;
+  position: absolute;
+  left: 0;
+  top: 5%;
+  width:90%;
+  height: 90%;
+  padding: 15px;
+  text-align:center;
+  border: transparent;
+  background-image: url("../img/book.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: 100% 100%;
+}
+
+#MarkerInfoMainPage {
+  padding-top: 4px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align:center;
+  border: transparent;
+  background-size: 100% 100%;
+}
+
+#DiscoveryInfoMainPage {
+  padding-top: 5%;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align:center;
+  border: transparent;
+  background-size: 100% 100%;
+  width: 95vw;
+  height: 85vh;
+}
+
+.marker-info-close {
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
+  font-size: 20px;
+}
+
+.marker-info-title {
+  padding: 0;
+  border: transparent;
+  background: transparent;
+  font-size: 24px;
+}
+
+.map-layout {
+  position: relative;
+}
+
+.map-marker {
+  width: 30px;
+  height: 40px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.wide-as-needed {
+  overflow: scroll;
+  white-space: nowrap;
+}
+
+.event-title {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  border: transparent;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  color: #ffffcc;
+  background: #228822;
+}
+
+.event-desc {
+  border: transparent;
+  padding: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  opacity: 0.95;
+  font-size: 14px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.ridges-title {
+  position: relative;
+  width: 100%;
+  top: 40vh;
+  text-align: center;
+}
+
+.transparent {
+  background: transparent;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.list .item.item-header {
+  background: transparent;
+  border: transparent;
+  font-size: 18px;
+}
+.list .item.item-accordion {
+  line-height: 38px;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 18%;
+  font-size: 14px;
+  border: transparent;
+  background: transparent;
+}
+.list .item.item-accordion.ng-hide {
+  line-height: 0px;
+}
+.list .item.item-accordion.ng-hide-add,
+.list .item.item-accordion.ng-hide-remove {
+  display: block !important;
+}
+
+.ridges-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.wildlife-page {
+  background: url('../img/bird.jpg') no-repeat fixed center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+.event-page {
+  background: url('../img/planks.jpg') no-repeat fixed center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+.ridges-page {
+  background: url('../img/lighthouse.jpg') no-repeat fixed center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+.marker-select {
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  width: 80%;
+  left: 10%;
+  right: 10%;
+  border: transparent;
+  font-size: 24px;
+  background: url('../img/holder.png') no-repeat left center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: 100% 100%;
+}
+
+.discovery-select {
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  width: 95%;
+  border: transparent;
+  background: 0;
+}
+
+.marker-page {
+  background: url('../img/planks.jpg') no-repeat fixed center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+.discovery-page {
+  background: url('../img/floor.jpg') no-repeat fixed center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+.discovery-book {
+  background: url('../img/book.png') no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+.marker {
+  margin: 5px;
+  padding: 15px;
+  background-image: url('../img/flyer.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: 100% 100%;
+}
+
+.discovery-marker {
+  margin: 5px;
+  padding: 15px;
+}
+
+.marker-desc {
+  padding: 10px;
+}
