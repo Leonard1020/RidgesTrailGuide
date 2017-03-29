@@ -125,23 +125,35 @@ angular.module('starter.controllers', [])
   .controller('DisCtrl', function($scope) {
     $scope.markers = [
       {
-        title: 'Boneyard'
+        title: 'Boneyard',
+        body: 'Help archaeologists discover bones of animals that use to live here.'
       }, {
-        title: 'Wooden Homes and Lean-To\'s'
+        title: 'Wooden Homes and Lean-To\'s',
+        body: 'There can never be too many forts along the trail! Can you build one of the shelters? What kind of creature would live in this home?'
       }, {
-        title: 'Monarchs and Milkweeks'
+        title: 'Creepy Crawlies',
+        body: 'Explore the wacky world of insects up close. Make observations about their bright colors, big eyes, twitching antennae, or any sounds they make.'
       }, {
-        title: 'Mystery Animal ID'
+        title: 'Monarchs and Milkweeks',
+        body: 'Monarch butterflies and milkweeds have a mutual relationship. One can not live without the other. Find one and you\'re bound to find the other.'
       }, {
-        title: 'Adopt a Tree'
+        title: 'Mystery Animal ID',
+        body: 'Have you found any evidence of wildlife? Tiny dots, scratches on bark, and scat are all signs of life.'
       }, {
-        title: 'Bird Blinds & Bluebird Boxes'
+        title: 'Adopt a Tree',
+        body: 'Trees are all different shapes, sizes, and colors. Find one to adopt, take care of it or read it a book. Watch it grow every time you visit.'
       }, {
-        title: 'Stream Crossing'
+        title: 'Bird Blinds & Bluebird Boxes',
+        body: 'Hide in one of the already-made bird blinds, or build your own! Listen and observe the birds in the trees and field. Keep an eye on the bluebird boxes.'
       }, {
-        title: 'Rocks & Fossils'
+        title: 'Stream Crossing',
+        body: 'Water is important for survival on Earth. Using tree stumps and wooden planks, try and build a bridge to cross the stream.'
       }, {
-        title: 'Circle of Cedars'
+        title: 'Rocks & Fossils',
+        body: 'Millions of years ago this area was deep under water. However it was shallow enough to allow coral and reefs to grow. Today you can find fossils of what remains of those bodies within the bedrock.'
+      }, {
+        title: 'Circle of Cedars',
+        body: 'There are many different animals that live in this area. Think of an animal and create a nest for it.'
       }
     ];
 
