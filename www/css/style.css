@@ -25,9 +25,7 @@ select {
 }
 
 #MarkerInfoMainPage {
-  padding-top: 4px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 4px;
   text-align:center;
   border: transparent;
   background-size: 100% 100%;
@@ -207,13 +205,29 @@ select {
   background-size: cover;
 }
 
+.display {
+  float: right;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  width: 50%;
+  height: auto;
+}
+
 .marker {
-  margin: 5px;
-  padding: 15px;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 15px;
   background-image: url('../img/flyer.png');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: 100% 100%;
+}
+
+.marker-body {
+  text-align: left;
+  font-size: 14px
 }
 
 .discovery-marker {

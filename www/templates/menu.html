@@ -20,7 +20,7 @@
       <ion-list>
         <ion-item collection-repeat="drawer in drawers" menu-close href="#/app/{{drawer.route}}">
           <div class="row">
-            <img src="{{drawer.img}}" class="ridges-icon">
+            <img ng-src="{{drawer.img}}" class="ridges-icon">
             <div class="col col-center">{{drawer.text}}</div>
           </div>
         </ion-item>
