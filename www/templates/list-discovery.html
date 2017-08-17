@@ -1,0 +1,10 @@
+<ion-view view-title="Family Discovery">
+  <ion-content>
+    <ion-list>
+      <ion-item class="item-icon-left" ng-repeat="marker in markers" ng-href="#/app/discovery/{{marker.id}}">
+        <i class="icon">{{marker.id}}</i>
+        <h2>{{marker.title}}</h2>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

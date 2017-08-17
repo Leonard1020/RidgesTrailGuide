@@ -1,0 +1,10 @@
+<ion-view view-title="Trail Guide">
+  <ion-content>
+    <ion-list>
+      <ion-item class="item-icon-left" ng-repeat="marker in markers" ng-href="#/app/ridges/{{marker.id}}">
+        <i class="icon">{{marker.id}}</i>
+        <h2>{{marker.title}}</h2>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
